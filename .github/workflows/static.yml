@@ -35,6 +35,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Move around files
         run: |
+          mkdir public
           cp -rv scripts/ static/ public/.
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
