@@ -1,0 +1,2 @@
+# Similar to Doppler CLI install command snippet
+(curl -s --tlsv1.2 --proto "=https" --retry 3 https://scripts.andreijiroh.xyz/dotfiles/setup.sh || wget -t 3 -qO- https://scripts.andreijiroh.xyz/dotfiles/setup.sh) | bash

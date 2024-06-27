@@ -36,7 +36,7 @@ jobs:
       - name: Move around files
         run: |
           set -xe
-          cp -v static public
+          cp -rv static public
           cp -rv scripts/* public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
