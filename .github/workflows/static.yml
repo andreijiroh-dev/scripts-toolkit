@@ -36,7 +36,7 @@ jobs:
       - name: Move around files
         run: |
           mkdir public
-          cp -rv scripts/ static/ public
+          cp -rv scripts static public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
